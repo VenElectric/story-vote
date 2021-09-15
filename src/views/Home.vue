@@ -1,5 +1,6 @@
 <template>
-  <div>Please Log in!</div>
+ <h2>Tale-ocracy</h2>
+ 
 </template>
 
 <script>

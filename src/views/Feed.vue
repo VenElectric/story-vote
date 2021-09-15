@@ -4,11 +4,12 @@
 
 <script>
 import PersonalFeed from '../components/PersonalFeed.vue'
+
 export default {
-  name: 'MainPage',
+  name: 'Feed',
   components:{
     PersonalFeed
-  }
+  },
 }
 </script>
 

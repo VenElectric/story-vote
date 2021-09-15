@@ -56,11 +56,13 @@
             }
     ],
     "profiles":[
-        {"id":"1","stories":[{"id":"1"},{"id":"2"},{"id":"3"},{"id":"4"}]},
-        {"id":"2","stories":[{"id":"1"},{"id":"2"},{"id":"3"},{"id":"4"}]},
-        {"id":"3","stories":[{"id":"1"},{"id":"2"},{"id":"3"},{"id":"4"}]},
-        {"id":"4","stories":[{"id":"1"},{"id":"2"},{"id":"3"},{"id":"4"}]},
-        {"id":"5","stories":[{"id":"1"},{"id":"2"},{"id":"3"},{"id":"4"}]}
+        {"id":"1","name":"Triton","stories":[{"id":"1"},{"id":"2"},{"id":"3"},{"id":"4"}]},
+        {"id":"2","name":"Kylie Sonique","stories":[{"id":"1"},{"id":"2"},{"id":"3"},{"id":"4"}]},
+        {"id":"3","name":"Strahd von Zarovich","stories":[{"id":"1"},{"id":"2"},{"id":"3"},{"id":"4"}]},
+        {"id":"4","name":"Agatha Harkness","stories":[{"id":"1"},{"id":"2"},{"id":"3"},{"id":"4"}]},
+        {"id":"5","name":"Mordenkainen","stories":[{"id":"1"},{"id":"2"},{"id":"3"},{"id":"4"}]},
+        {"id":"o2n7eMRtxRf4ng1BaMkD2hECdXD2","stories":[{"id":"1"},{"id":"2"},{"id":"3"},{"id":"4"}]}
+
     ],
     "stories":[{"id":"1","author":"Lorem","text":"Laborum labore id deserunt dolor enim dolore est culpa.\n Minim non magna et cillum duis nisi sunt.\n Deserunt sit et deserunt pariatur elit aliqua labore voluptate anim.\n  Tempor mollit do exercitation officia occaecat pariatur adipisicing.\nLaboris in eiusmod ad quis ut adipisicing velit culpa ullamco.\nEiusmod ut occaecat consectetur anim labore consequat consectetur proident id id occaecat sit.",
         "title":"Esse sit magna"
