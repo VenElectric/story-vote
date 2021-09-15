@@ -47,7 +47,7 @@
 </template>
 
 <script>
-import { storage } from "../firebase";
+import { storage } from "../firesinit";
 import { ref, getDownloadURL } from "firebase/storage"
 import NoProfile from '../components/NoProfile.vue'
 export default {

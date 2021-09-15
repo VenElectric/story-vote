@@ -75,7 +75,7 @@
 
 <script>
 import { getAuth, updateProfile } from "firebase/auth";
-import { storage } from "../firebase";
+import { storage } from "../firesinit";
 import { ref, uploadBytes, getDownloadURL } from "firebase/storage";
 import NoProfile from "../components/NoProfile.vue";
 

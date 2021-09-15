@@ -17,7 +17,7 @@
 </template>
 
 <script>
-import { AuthState } from "./firebase.js";
+import { AuthState } from "./firesinit.js";
 
 import { getAuth, signOut } from 'firebase/auth'
 import { useRouter } from 'vue-router'

@@ -9,7 +9,7 @@ import Stories from '../views/Stories.vue'
 import Login from '../views/Login.vue'
 import Home from '../views/Home.vue'
 import AddStory from '../views/AddStory.vue'
-import { UserState } from '../firebase'
+import { UserState } from '../firesinit'
 
 const routes = [
   {
