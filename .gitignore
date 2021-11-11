@@ -2,6 +2,7 @@
 node_modules
 /dist
 src/firesinit.js
+data
 
 # local env files
 .env.local
@@ -22,3 +23,7 @@ pnpm-debug.log*
 *.sln
 *.sw?
 
+uuid.txt
+uuidgenerate.js
+data
+data/db.json

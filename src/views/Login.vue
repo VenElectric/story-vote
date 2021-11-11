@@ -49,14 +49,14 @@ export default {
     const router = useRouter()
     let error_msg
     const login_user = async e => {
+      console.log(typeof(e))
       const { email, password } = e.target.elements
       console.info(email.value)
       try {
         await signInWithEmailAndPassword(auth, email.value, password.value)
         router.push('/')
-      } catch (e) {
-       this.errormsg = e.message
-       console.log(error_msg)
+      } catch (error) {
+       this.errormsg = error.message
       }
     }
     return { login_user,error_msg }

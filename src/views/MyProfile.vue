@@ -103,9 +103,12 @@ export default {
   },
   methods: {
     get_feed: async function() {
+      // ${this.user_info.uid}
+      let url = `http://localhost:3000/profiles/${this.user_info.uid}`
       this.$axios
-        .get(`http://localhost:3000/profiles?id=${this.user_info.uid}`)
+        .get(url)
         .then((data) => {
+          console.log(data)
           this.feed = data.data[0];
         })
         .then(() => {
